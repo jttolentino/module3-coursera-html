@@ -1,0 +1,49 @@
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-brand a:hover{
+	text-decoration: none !important;
+	color: black;
+}
+
+.navbar-brand a{
+	text-decoration: none !important;
+	color: black;
+}
+
+/*#main-content{
+	margin-right: 20px;
+	margin-left: 20px;
+}*/
+
+#chicken-content, #beef-content, #sushi-content{
+	background: gray;
+	width: 100%;
+	height: 1000px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .col-xxs-12{
+  	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
